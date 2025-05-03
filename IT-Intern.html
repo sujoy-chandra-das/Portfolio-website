@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Ornab Biswass | Junior Software Engineer Portfolio</title> -->
+    <title>IT Intern | Ornab Biswass</title>
+    <link rel="icon" type="image/x-icon" href="assets/Photo/FavconAB.png" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <base href="assets/"> -->
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta name="description"
+        content="Portfolio of Ornab Biswass, a passionate Junior Software Engineer specializing in Java & Spring-Boot with projects in Angular, Tailwind CSS, and Full-Stack Development.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ornabbiswass.netlify.app/">
+    <meta property="og:title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta property="og:description"
+        content="Explore the professional and academic achievements of Ornab Biswass, including detailed project portfolios and work experience in software development.">
+    <meta property="og:image" content="Photo/OrnabBiswas.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ornabbiswass.netlify.app/">
+    <meta property="twitter:title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta property="twitter:description"
+        content="Explore the professional and academic achievements of Ornab Biswass, including detailed project portfolios and work experience in software development.">
+    <meta property="twitter:image" content="assets/Photo/OrnabBiswas.jpg">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            /* For Safari compatibility */
+            background-color: rgba(255, 255, 255, 0.5);
+            /* More transparent background */
+        }
+
+        #mobile-menu {
+            position: fixed;
+            background-color: rgba(255, 255, 255, 0.5);
+            /* Transparent white */
+            -webkit-backdrop-filter: blur(10px);
+            /* Blur effect */
+            backdrop-filter: blur(10px);
+            /* Safari compatibility */
+        }
+
+        .neon-hover:hover {
+            text-shadow: 0 0 5px rgba(17, 52, 188, 0.7),
+                0 0 10px rgba(255, 69, 0, 0.7),
+                0 0 15px rgba(255, 165, 0, 0.7),
+                0 0 20px rgba(255, 255, 0, 0.7);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 bg-opacity-20 text-white p-2 shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and Home link combined -->
+            <div class="flex items-center space-x-4 text-lg font-bold">
+                <a href="index.html" class="flex items-center space-x-4 transition font-bold neon-hover">
+                    <img src="assets/Photo/FavconAB.png" alt="Ornab Biswass"
+                        class="w-10 h-10 rounded-full object-cover">
+                    <span>Ornab Biswass</span>
+                </a>
+            </div>
+
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden ">
+                <a id="menu-toggle" class="text-white focus:outline-none ">
+                    <svg id="menu-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Navbar Links -->
+            <ul id="nav-links" class="hidden md:flex space-x-6 items-center ">
+                <li><a href="index.html" class=" transition font-bold neon-hover">Home</a></li>
+                <li><a href="work-experience.html" class=" transition font-bold neon-hover">Experience</a></li>
+                <li><a href="projects.html" class=" transition font-bold neon-hover">Projects</a>
+                </li>
+                <li><a href="achievements.html" class=" transition font-bold neon-hover">Achievements</a></li>
+                <li><a href="index.html#about" class=" transition font-bold neon-hover">About</a></li>
+                <li><a href="#contact" class=" transition font-bold neon-hover">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="hidden bg-gray-800 bg-opacity-50 text-white rounded-b-2xl p-4 absolute top-14 left-0 w-full z-10 shadow-md md:hidden backdrop-blur-md">
+        <a href="index.html" class="block text-black font-bold py-2 neon-hover">Home</a>
+        <a href="work-experience.html" class="block text-black font-bold py-2 neon-hover">Experience</a>
+        <a href="projects.html" class="block text-black font-bold py-2 neon-hover">Projects</a>
+        <a href="index.html#about" class="block text-black font-bold py-2 neon-hover">About</a>
+        <a href="achievements.html" class="block text-black font-bold py-2 neon-hover">Achievements</a>
+        <a href="#contact" class="block text-black font-bold py-2 neon-hover">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container mx-auto px-4 md:px-8 pt-16">
+
+        <h1 class="text-4xl font-bold mb-6 text-center">IT Intern Experience</h1>
+
+        <div id="Overview" class="border-t-4 border-red-500 bg-white p-6 rounded-lg shadow-md mb-6">
+            <h2 class="text-3xl font-semibold mb-4">Overview</h2>
+            <p class="text-gray-700 mb-4">
+                As an IT Intern at Southeast University, I have had the opportunity to work on various projects that
+                enhance my technical skills and contribute to the organization's goals. My primary focus has been on the
+                development of the Talent Acquisition System and the front-end of the Admission System, alongside
+                managing inventory and assisting with various tasks assigned by senior colleagues.
+            </p>
+        </div>
+
+        <div id="Key-Responsibilities" class="border-t-4 border-red-500 bg-white p-6 rounded-lg shadow-md mb-6">
+            <h2 class="text-3xl font-semibold mb-4">Key Responsibilities</h2>
+            <ul class="list-disc list-inside mb-6">
+                <li>Developing the Talent Acquisition System using Angular and Tailwind CSS.</li>
+                <li>Contributing to the front-end development of the Southeast University Admission System.</li>
+                <li>Managing inventory and assisting with various tasks assigned by my senior colleagues.</li>
+                <li>Participating in team meetings to discuss project progress and challenges.</li>
+            </ul>
+        </div>
+
+        <div id=" projects" class="border-t-4 border-red-500 bg-white p-6 rounded-lg shadow-md mb-6">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-12">
+                <!-- Project 1: Talent Acquisition System -->
+                <div class="rounded-lg overflow-hidden border-4 border-gray-200 hover:border-blue-500">
+                    <a href="talent-acquisition-system.html">
+                        <div class="bg-white p-6">
+                            <h3 class="text-xl font-bold mb-2">Talent Acquisition System</h3>
+                            <p class="text-gray-700 mb-4">A comprehensive recruitment platform designed to
+                                streamline
+                                the hiring
+                                process for Southeast University. I contributed to its development by creating an
+                                intuitive
+                                user
+                                interface and implementing features that enhance user experience.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project 2: Admission System Frontend -->
+                <div class="rounded-lg overflow-hidden border-4 border-gray-200 hover:border-blue-500">
+                    <a href="SEUAdmissionSystem.html">
+                        <div class="bg-white p-6">
+                            <h3 class="text-xl font-bold mb-2">Admission System Frontend</h3>
+                            <p class="text-gray-700 mb-4">Developing the front-end for the Southeast University
+                                admission
+                                system,
+                                focusing on user experience and interface design. My work involved ensuring that the
+                                application
+                                is
+                                responsive and accessible across various devices.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white mb-6 ">
+            <div
+                class="container mx-auto px-4 md:px-8 bg-white shadow-lg text-center p-5 border-t-4 border-red-500 rounded-lg">
+                <h2 class="text-3xl font-bold text-gray-800">Get in Touch</h2>
+                <p class="text-lg text-gray-600 mt-2">Feel free to connect with me through any of the platforms below:
+                </p>
+
+                <!-- Social Media Links -->
+                <div class="mt-8 flex justify-center space-x-8">
+
+                    <!-- Email Link -->
+                    <a href="mailto:ornabbiswass@gmail.com" class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome Email Icon -->
+                        <i class="fas fa-envelope h-8 w-8"></i>
+                    </a>
+
+                    <!-- WhatsApp Link -->
+                    <a href="https://wa.me/8801852128663" target="_blank"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <i class="fab fa-whatsapp h-8 w-8"></i>
+                    </a>
+
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/Ornab95" target="_blank"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome GitHub Icon -->
+                        <i class="fab fa-github h-8 w-8"></i>
+                    </a>
+
+                    <!-- LinkedIn Link -->
+                    <a href="https://www.linkedin.com/in/ornabbiswass/" target="_blank"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome LinkedIn Icon -->
+                        <i class="fab fa-linkedin h-8 w-8"></i>
+                    </a>
+                </div>
+                <a href="mailto:ornabbiswass@gmail.com" class="text-2xl text-gray-800 hover:text-white neon-hover">
+                    <span class="text-red-500 font-semibold hover:text-white">ornabbiswass@gmail.com</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+
+        // Toggle menu visibility when clicking the toggle button
+        menuToggle.addEventListener('click', (event) => {
+            event.stopPropagation(); // Prevent click event from bubbling to the document
+            menu.classList.toggle('hidden');
+        });
+
+        // Close the menu when clicking outside of it
+        document.addEventListener('click', (event) => {
+            // Check if the menu is open and the click is outside the menu and toggle button
+            if (!menu.classList.contains('hidden') && !menu.contains(event.target) && !menuToggle.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+
+</html>

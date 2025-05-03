@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornab Biswass | Junior Software Engineer Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/Photo/FavconAB.png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="canonical" href="https://ornabbiswass.netlify.app/">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta name="description"
+        content="Explore the achievements of Ornab Biswass, a skilled Junior Software Engineer with expertise in Java, Angular, Tailwind CSS, and Spring Boot.">
+    <meta name="keywords"
+        content="Ornab Biswass, Junior Software Engineer, Java Developer, Angular Developer, Tailwind CSS, Spring-Boot, Portfolio, Web Developer">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Ornab Biswass">
+    <meta name="language" content="English">
+    <meta name="geo.region" content="BD">
+    <meta name="geo.placename" content="Bangladesh">
+    <meta name="geo.position" content="23.8103;90.4125">
+    <meta name="ICBM" content="23.8103, 90.4125">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ornabbiswass.netlify.app/">
+    <meta property="og:title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta property="og:description"
+        content="Explore the achievements of Ornab Biswass, a passionate Junior Software Engineer with expertise in Java, Angular, and Spring Boot.">
+    <meta property="og:image" content="assets/Photo/Theamed.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ornabbiswass.netlify.app/">
+    <meta property="twitter:title" content="Ornab Biswass | Junior Software Engineer Portfolio">
+    <meta property="twitter:description"
+        content="Explore the achievements of Ornab Biswass, a skilled Junior Software Engineer specializing in Java, Angular, and Full-Stack Development.">
+    <meta property="twitter:image" content="assets/Photo/OrnabBiswas.jpg">
+
+    <!-- Structured Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ornab Biswass",
+        "url": "https://ornabbiswass.netlify.app/",
+        "image": "assets/Photo/OrnabBiswas.jpg",
+        "jobTitle": "Junior Software Engineer",
+        "description": "A passionate Junior Software Engineer with expertise in Java, Spring Boot, Angular, and Full-Stack Development.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Bangladesh"
+        },
+        "sameAs": [
+            "https://linkedin.com/in/ornab-biswass",
+            "https://github.com/ornabbiswass",
+        ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 bg-opacity-20 text-white p-2 shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4 text-lg font-bold">
+                <a href="index.html" class="flex items-center space-x-4 transition font-bold neon-hover">
+                    <img src="assets/Photo/FavconAB.png" alt="Ornab Biswass"
+                        class="w-10 h-10 rounded-full object-cover">
+                    <span>Ornab Biswass</span>
+                </a>
+            </div>
+
+            <div class="md:hidden">
+                <a id="menu-toggle" class="text-white focus:outline-none">
+                    <svg id="menu-icon" class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </a>
+            </div>
+
+            <ul id="nav-links" class="hidden md:flex space-x-6 items-center">
+                <li>
+                    <a href="index.html" class="transition font-bold neon p-1">Home</a>
+                  </li>
+                  
+                <li><a href="work-experience.html" class="transition font-bold neon-hover">Experience</a></li>
+                <li><a href="projects.html" class="transition font-bold neon-hover">Projects</a></li>
+                <li><a href="achievements.html" class="transition font-bold neon-hover">Achievements</a></li>
+                <li><a href="#about" class="transition font-bold neon-hover">About</a></li>
+                <li><a href="#contact" class="transition font-bold neon-hover">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="hidden bg-gray-800 bg-opacity-70 text-white rounded-b-2xl p-4 absolute top-14 left-0 w-full z-10 shadow-md md:hidden backdrop-blur-sm hover:border hover:border-gray-500">
+        <a href="index.html"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-red-500 rounded neon">Home</a>
+        <a href="work-experience.html"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-red-500 rounded">Experience</a>
+        <a href="projects.html"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-green-500 rounded">Projects</a>
+        <a href="#about"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-yellow-500 rounded">About</a>
+        <a href="achievements.html"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-purple-500 rounded">Achievements</a>
+        <a href="#contact"
+            class="block text-black font-bold py-2 neon-hover hover:border hover:border-pink-500 rounded">Contact</a>
+    </div>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white h-screen flex items-center justify-center relative overflow-hidden">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="assets/Photo/background.mp4" type="video/mp4">
+        </video>
+        <div class="relative z-10 text-center px-4 md:px-8">
+            <div class="gradient-border-container">
+                <img src="assets/Photo/OrnabBiswas.jpg" alt="Ornab Biswass"
+                    class="rounded-full mx-auto w-32 sm:w-48 md:w-64 object-cover mb-6 border-1 border-gray-700"
+                    style="box-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 69, 0, 0.7), 0 0 15px rgba(255, 165, 0, 0.7), 0 0 20px rgba(255, 255, 0, 0.7);">
+            </div>
+
+            <!-- Name -->
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white bg-gradient-to-r from-red-500 to-green-500 bg-clip-text text-transparent"
+                style="text-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 69, 0, 0.7), 0 0 15px rgba(255, 165, 0, 0.7), 0 0 20px rgba(255, 255, 0, 0.7);">
+                Ornab Biswass
+            </h1>
+            <!-- Job Title -->
+            <p class="text-lg sm:text-xl mb-6 text-white bg-gradient-to-r from-red-500 to-yellow-500 bg-clip-text text-transparent"
+                style="text-shadow: 0 0 5px rgba(255, 0, 0, 0.7), 0 0 10px rgba(255, 69, 0, 0.7), 0 0 15px rgba(255, 165, 0, 0.7), 0 0 20px rgba(255, 255, 0, 0.7);">
+                Junior Software Engineer | Java & Spring-Boot
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#projects">
+                    <button class="custom-button"><span
+                            class="text px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm md:text-base font-medium">View My
+                            Projects</span></button>
+                </a>
+                <a href="assets/pdf/Ornab-Biswass.pdf">
+                    <button class="custom-button"><span
+                            class="text px-2 py-1 sm:px-4 sm:py-2 text-xs sm:text-sm md:text-base font-medium">View My
+                            Resume</span></button>
+                </a>
+            </div>
+        </div>
+        <div class="absolute inset-0 bg-black opacity-50 z-5"></div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container w-full mx-auto px-4 md:px-8  bg-white  rounded">
+        <!-- Work Experience -->
+        <section class="bg-gray-100 p-6 rounded-lg shadow-lg mb-8 mt-1   border-t-4  border-red-500  ">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-center text-gray-800">Work Experience</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-12">
+                    <!-- Experience Card 1 -->
+                    <a href="IT-Intern.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <img src="assets/Photo/SEU.jpeg" alt="SEU Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h3 class="text-2xl font-semibold text-gray-800">IT Intern</h3>
+                            </div>
+                            <h4 class="text-lg text-gray-600 mb-4">Southeast University, Department of IT</h4>
+                            <p class="text-sm text-gray-500 mb-4">10-06-2024 - 14-11-2024</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Developing the Talent Acquisition System using Angular and Tailwind CSS.</li>
+                                <li>Leading the SEU Admission Page front-end development.</li>
+                                <li>Collaborating with the IT team on full-stack development tasks.</li>
+                                <li>Utilizing Git/GitHub for version control.</li>
+                            </ul>
+                        </div>
+                    </a>
+                    <!-- Experience Card 2 -->
+                    <a href="Volunteer-work.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+
+                                <h3 class="text-2xl font-semibold text-gray-800">Campus Ambassador (Volunteer Work)</h3>
+                            </div>
+                            <div class="flex gap-3">
+                                <img src="assets/Photo/KormoJobsLogo.png" alt="Kormo Jobs Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h4 class="text-lg text-gray-600 mb-4">Kormo Jobs by Google</h4>
+                            </div>
+                            <p class="text-sm text-gray-500 mb-4">05/2020 - 06/2022</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Promoted Kormo Jobs on campus and connected students with job opportunities.</li>
+                                <li>Organized campus events and educated students on job search.</li>
+                            </ul>
+                            <div class="flex gap-2 mt-6">
+                                <img src="assets/Photo/ShomvobLogo.jpeg" alt="Shomvob Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h4 class="text-lg text-gray-600 mb-4">Shomvob Technologies Ltd.</h4>
+                            </div>
+                            <p class="text-sm text-gray-500 mb-4">01/2023 - 04/2023</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Promoted Shomvob Android app on campus to help students access entry-level jobs.
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="relative bg-gray-100 mb-8 rounded-lg shadow-lg overflow-hidden">
+            <div class="container mx-auto mb-8 p-4 border-t-4 border-red-500 rounded-md">
+                <h2 class="text-4xl font-bold mb-12 text-center text-gray-800">Projects</h2>
+                <!-- Carousel for Mobile (Up to md) -->
+                <div class="relative md:hidden overflow-hidden">
+                    <!-- Carousel Items -->
+                    <div id="carousel-items" class="flex transition-transform duration-700 ease-in-out">
+                        <!-- Project 1 -->
+                        <a href="talent-acquisition-system.html" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Talent Acquisition System</h3>
+                                <p class="text-gray-700 mt-2">
+                                    A recruitment platform developed using Angular, Tailwind CSS, and Spring Boot.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Job Posting and Application System</li>
+                                    <li>Admin Dashboard for HR management</li>
+                                    <li>Responsive User Interface</li>
+                                    <li>Integration with MongoDB for Data Storage</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: Angular, Spring Boot, MongoDB,
+                                    Tailwind
+                                    CSS</p>
+                            </div>
+                        </a>
+                        <!-- Project 2 -->
+                        <a href="SEUAdmissionSystem.html" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">SEU Admission System</h3>
+                                <p class="text-gray-700 mt-2">
+                                    Developed the front-end for Southeast University's admission system.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Student Registration and Application Forms</li>
+                                    <li>Admin Dashboard for Admission Review</li>
+                                    <li>Mobile-responsive Design</li>
+                                    <li>Integrated with Backend APIs</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: HTML, Tailwind CSS, JavaScript
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Project 3 -->
+                        <a href="index.html" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Portfolio Website</h3>
+                                <p class="text-gray-700 mt-2">
+                                    A personal portfolio website showcasing my projects and achievements.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Designed and developed a responsive portfolio</li>
+                                    <li>Used Tailwind CSS and JavaScript for front-end</li>
+                                    <li>Integrated project showcases and contact form</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: HTML, Tailwind CSS, JavaScript
+                                </p>
+                            </div>
+                        </a>
+                        <!-- Project 4 -->
+                        <a href="#" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Basic Calculator</h3>
+                                <p class="text-gray-700 mt-2">
+                                    A desktop calculator created using JavaFX, following MVC design principles.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Interactive User Interface</li>
+                                    <li>Efficient calculations with memory support</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: JavaFX</p>
+                            </div>
+                        </a>
+
+                        <!-- Project 5 -->
+                        <a href="DTMS.html" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Daily Task Management</h3>
+                                <p class="text-gray-700 mt-2">
+                                    A web application to manage daily tasks and to-do lists efficiently.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Create, update, and delete tasks</li>
+                                    <li>Set deadlines and reminders</li>
+                                    <li>Organize tasks by categories</li>
+                                    <li>Responsive design for mobile and desktop</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: HTML, Tailwind CSS, JS, MySQL,
+                                    PHP </p>
+                            </div>
+                        </a>
+
+                        <!-- Project 6 -->
+                        <a href="OBSMS.html" class="min-w-full p-1">
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Online-Based Store Management
+                                    System</h3>
+                                <p class="text-gray-700 mt-2">
+                                    A web application to manage Online Store efficiently.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Create, update, and delete Operation</li>
+                                    <li>Purchase Products</li>
+                                    <li>Sell Products</li>
+                                    <li>Make Purchase Report</li>
+                                    <li>Make Sell Report</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies
+                                    Used: HTML, Tailwindcss, PHP, MySQL, JavaScript</p>
+                            </div>
+                        </a>
+                        <!-- Project 7 -->
+                        <a href="ExamPortalAPI.html" class="min-w-full p-1"> 
+                            <div class="bg-white rounded-lg shadow-md p-6 h-full flex flex-col items-start">
+                                <h3 class="text-2xl font-semibold text-gray-800">Exam Portal API</h3>
+                                <p class="text-gray-700 mt-2">
+                                    Project Description: A Spring Boot-based RESTful API for managing and conducting online quizzes. Enables quiz creation, question management, and result evaluation.
+                                </p>
+                                <ul class="list-disc list-inside mt-4 text-gray-700">
+                                    <li>Create quizzes from subject-specific question pools</li>
+                                    <li>Submit answers and get calculated scores</li>
+                                    <li>Manage questions: add, view by subject, and delete</li>
+                                    <li>Expose clean RESTful endpoints</li>
+                                    <li>Flexible to integrate with Angular frontend</li>
+                                </ul>
+                                <p class="text-sm text-gray-500 mt-4">Technologies Used: Java, Spring Boot, JPA, MySQL, Maven</p>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                <!-- Grid for Larger Screens (md and up) -->
+                <div class="hidden md:grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <!-- Project Cards for Desktop -->
+                    <a href="talent-acquisition-system.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <img src="assets/Photo/SEU.jpeg" alt="SEU Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h3 class="text-2xl font-semibold text-gray-800">Talent Acquisition System</h3>
+                            </div>
+                            <p class="text-gray-700 mb-4">
+                                A recruitment platform developed using Angular, Tailwind CSS, and Spring Boot.
+                            </p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Job Posting and Application System</li>
+                                <li>Admin Dashboard for HR management</li>
+                                <li>Responsive User Interface</li>
+                                <li>Integration with MongoDB for Data Storage</li>
+                            </ul>
+                            <p class="text-sm text-gray-500 mt-4 font-semibold"><span
+                                    class="text-blue-700 font-bold">Technologies
+                                    Used:</span> Angular, TypeScript, Spring Boot, MongoDB,
+                                Tailwind
+                                CSS
+                            </p>
+                        </div>
+                        <!-- <span class="mt-6 text-red-500 font-medium hover:underline">Learn More</span> -->
+                    </a>
+                    <a href="SEUAdmissionSystem.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <img src="assets/Photo/SEU.jpeg" alt="SEU Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h3 class="text-2xl font-semibold text-gray-800">SEU Admission System</h3>
+                            </div>
+                            <p class="text-gray-700 mb-4">
+                                Developed the front-end for Southeast University's admission system.
+                            </p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Student Registration and Application Forms</li>
+                                <li>Admin Dashboard for Admission Review</li>
+                                <li>Mobile-responsive Design</li>
+                                <li>Integrated with Backend APIs</li>
+                            </ul>
+                            <p class="text-sm text-gray-500 mt-4 font-semibold"><span
+                                    class="text-blue-700 font-bold">Technologies
+                                    Used:</span> HTML, Tailwind CSS,
+                                JS</p>
+                        </div>
+                        <!-- <span class="mt-6 text-red-500 font-medium hover:underline">Learn More</span> -->
+                    </a>
+                    <a href="DTMS.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <img src="https://img.freepik.com/premium-vector/illustration-task_498740-14038.jpg" alt="Task Management Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h3 class="text-2xl font-semibold text-gray-800">Daily Task Management</h3>
+                            </div>
+                            <p class="text-gray-700 mb-4">
+                                A web application to manage daily tasks and to-do lists efficiently.
+                            </p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Create, update, and delete tasks</li>
+                                <li>Set deadlines and reminders</li>
+                                <li>Organize tasks by categories</li>
+                                <li>Responsive design for mobile and desktop</li>
+                            </ul>
+                            <p class="text-sm text-gray-500 mt-4 font-semibold"><span
+                                    class="text-blue-700 font-bold">Technologies
+                                    Used:</span> HTML, JavaScript, PHP, MySQL, Tailwind CSS
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="ExamPortalAPI.html"
+                        class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col justify-between p-6">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-4">
+                                <img src="https://blog.postman.com/wp-content/uploads/2021/03/APIs-in-Postman-e1616786230943.png" alt="Task Management Logo"
+                                    class="w-10 h-10 rounded-full object-cover">
+                                <h3 class="text-2xl font-semibold text-gray-800">Exam Portal API</h3>
+                            </div>
+                            <p class="text-gray-700 mb-4">
+                                Spring Boot REST API for online quizzes: create quizzes, manage questions, evaluate results.
+                            </p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                                <li>Create quizzes from subject-specific question pools</li>
+                                <li>Submit answers and get calculated scores</li>
+                                <li>Manage questions: add, view by subject, and delete</li>
+                                <li>Expose clean RESTful endpoints</li>
+                                <li>Flexible to integrate with Angular frontend</li>
+                            </ul>
+                            <p class="text-sm text-gray-500 mt-4 font-semibold"><span
+                                    class="text-blue-700 font-bold">Technologies
+                                    Used:</span> Java, Spring Boot, JPA, MySQL, Maven
+                            </p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="text-center my-2 md:mt-4 md:mb-3">
+                    <a href="projects.html"
+                        class="explore-button bg-gray-200 hover:bg-gray-300 h-10 md:h-14 w-36 md:w-52 p-2 md:p-4 rounded-full text-sm md:text-xl font-semibold border-2 inline-flex items-center justify-center transition-all duration-300 group active:scale-95">
+                        <span class="flex items-center space-x-1">
+                            <span>Explore All</span>
+                            <svg class="arrow-icon w-5 h-5 md:w-8 md:h-8 text-gray-900 transition-transform duration-500 ease-in-out rounded-full border border-gray-700 p-0.5 md:p-1"
+                                viewBox="0 0 16 19" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+                                    class="fill-current"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+      <!-- Achievements Section -->
+<section id="achievements" class="bg-gray-100 mb-4 rounded-lg shadow-lg">
+    <div class="container mx-auto border-t-4 border-red-500 rounded-md mt-6">
+      <h2 class="text-4xl font-bold text-gray-800 my-8 text-center">Achievements</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
+        
+        <!-- Research Defense Achievement -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-gray-800">Research Defence</h3>
+          <div class="flex flex-col md:flex-row items-center mt-4">
+            <div class="w-full md:w-1/2 p-4">
+              <p class="text-gray-700">
+                This study leveraged the Wisconsin Diagnostic Breast Cancer Dataset (WDBC)
+                to predict breast cancer malignancy using five machine learning classifiers:
+                Logistic Regression, Decision Trees, Random Forest, K-Nearest Neighbors, and Naive Bayes.
+              </p>
+              <p class="text-gray-500 text-sm mt-2">Date: 02-10-2024</p>
+            </div>
+            <div class="w-full md:w-1/2 p-4 mt-4 md:mt-0">
+              <img src="assets/Photo/OrnabBiswas1.jpg" alt="Research Defence Day"
+                class="rounded-lg object-cover w-full h-48 mx-auto shadow-md transition-transform transform hover:scale-105">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Core Java Achievement -->
+<div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h3 class="text-2xl font-semibold text-gray-800">Core Java</h3>
+    <div class="flex flex-col md:flex-row items-center mt-4">
+      <div class="w-full md:w-1/2 p-4">
+        <p class="text-gray-700">
+          Demonstrated proficiency in core Java programming concepts such as OOP principles, data structures,
+          and algorithms. Completed multiple projects, including a basic banking system and a personal library
+          management system.
+        </p>
+        <p class="text-gray-500 text-sm mt-2">Date: August 8, 2021</p>
+      </div>
+      <div class="w-full md:w-1/2 p-4 mt-4 md:mt-0">
+        <img src="assets/Photo/java.jpg" alt="Core Java Certificate"
+          class="rounded-lg object-cover w-full h-48 mx-auto shadow-md transition-transform transform hover:scale-105">
+      </div>
+    </div>
+    <div class="mt-4 text-center">
+      <a href="assets/pdf/Java Certified Foundations.pdf"
+        class="bg-white border-2 hover:text-red-500 text-black px-4 py-2 rounded-full border-red-400 hover:border-red-500 transition">
+        See PDF
+      </a>
+    </div>
+  </div>
+  
+  
+        <!-- Employability Skills Program Achievement -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-2xl font-semibold text-gray-800">21st Century Core Employability Skills Program</h3>
+          <div class="flex flex-col md:flex-row items-center mt-4">
+            <div class="w-full p-4">
+                <p class="text-gray-700">
+                    Participated in a comprehensive employability skills program aimed at improving communication,
+                    leadership, teamwork, problem-solving, and critical thinking. This program included workshops,
+                    presentations, and practical exercises to enhance workplace skills.
+                     <!-- It focused on building confidence
+                    in professional environments, understanding corporate culture, and managing time effectively under pressure.
+                    Engaged in mock interviews and collaborative tasks to simulate real-world scenarios.
+                    Received personalized feedback from trainers and industry experts to guide professional growth. -->
+                  </p>
+                  
+              <p class="text-gray-500 text-sm mt-2">Duration: 05/2021 - 08/2021</p>
+            </div>
+          </div>
+          <div class="mt-4 text-center">
+            <a href="assets/pdf/Ornab Biswass_SEU.pdf"
+              class="bg-white border-2 hover:text-red-500 text-black px-4 py-2 rounded-full border-red-400 hover:border-red-500 transition">
+              See PDF
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- See All Button -->
+      <div class="mt-2 pb-4 text-center">
+        <a href="achievements.html"
+          class="explore-button bg-gray-100 h-14 w-auto p-4 rounded-full text-xl font-semibold border-2 inline-flex items-center justify-center transition-all duration-300 group">
+          <span class="flex items-center space-x-2">
+            <span>See All</span>
+            <svg class="arrow-icon w-8 h-8 text-gray-800 transition-transform duration-500 ease-in-out rounded-full border border-gray-700 p-1"
+              viewBox="0 0 16 19" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+                class="fill-current"></path>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+        <!-- About Me Section -->
+        <section id="about" class="py-6">
+            <div class="container mx-auto px-4 md:px-8 bg-white shadow-lg border-t-4 border-red-500 rounded-lg">
+                <h2 class="text-4xl font-bold my-8 text-gray-800 text-center">About Me</h2>
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/Photo/OrnabBiswas.jpg" alt="Ornab Biswass"
+                            class="rounded-full mx-auto w-64 h-64 object-cover border-4 border-red-500">
+                    </div>
+                    <div class="w-full md:w-2/3">
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Hi! I'm <span class="font-semibold text-red-600">Ornab Biswass</span>, a passionate junior
+                            software
+                            engineer with a strong background in full-stack development. I am currently pursuing my
+                            Bachelor's
+                            degree in Computer Science from Southeast University, where I've built a solid foundation in
+                            programming, algorithm design, databases, and software engineering.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            I'm proficient in front-end technologies like Angular and Tailwind CSS, and I have hands-on
+                            experience working with back-end technologies such as Java and Spring Boot. My journey also
+                            includes
+                            building projects like the <span class="font-semibold text-red-600">Talent Acquisition
+                                System</span> and the <span class="font-semibold text-red-600">SEU Admission
+                                System</span>.
+                        </p>
+                        <!-- <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            I have a strong interest in Artificial Intelligence, and I'm planning to pursue an MSc in AI
+                            at
+                            FAU
+                            Erlangen-Nürnberg to further enhance my knowledge and skills in this area. I’m a quick
+                            learner
+                            and
+                            always eager to tackle new challenges, whether it’s in software development, research, or
+                            IT.
+                        </p> -->
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Apart from coding, I have experience in IT internship work, collaborating with senior
+                            developers,
+                            and leading web development tasks. I'm also a volunteer who helped students with job
+                            opportunities
+                            through Kormo Jobs by Google and Shomvob Technologies Ltd.
+                        </p>
+                        <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                            Feel free to check out my projects or reach out if you'd like to collaborate or just chat
+                            about
+                            technology!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white mb-6 ">
+            <div
+                class="container mx-auto px-4 md:px-8 bg-white shadow-lg text-center p-5 border-t-4 border-red-500 rounded-lg">
+                <h2 class="text-3xl font-bold text-gray-800">Get in Touch</h2>
+                <p class="text-lg text-gray-600 mt-2">Feel free to connect with me through any of the platforms below:
+                </p>
+                <!-- Social Media Links -->
+                <div class="mt-8 flex justify-center space-x-8">
+                    <!-- Email Link -->
+                    <a href="mailto:ornabbiswass@gmail.com" class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome Email Icon -->
+                        <i class="fas fa-envelope h-8 w-8"></i>
+                    </a>
+                    <!-- WhatsApp Link -->
+                    <a href="https://wa.me/8801852128663" target="_blank"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <i class="fab fa-whatsapp h-8 w-8"></i>
+                    </a>
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/Ornab95" target="_blank"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome GitHub Icon -->
+                        <i class="fab fa-github h-8 w-8"></i>
+                    </a>
+                    <!-- LinkedIn Link -->
+                    <a href="https://www.linkedin.com/in/ornab-biswass/"
+                        class="text-2xl text-gray-800 hover:text-blue-600">
+                        <!-- Font Awesome LinkedIn Icon -->
+                        <i class="fab fa-linkedin h-8 w-8"></i>
+                    </a>
+                </div>
+                <a href="mailto:ornabbiswass@gmail.com" class="text-2xl text-gray-800 hover:text-white neon">
+                    <span class="text-white font-semibold hover:text-red-200">ornabbiswass@gmail.com</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+
+        // Toggle menu visibility when clicking the toggle button
+        menuToggle.addEventListener('click', (event) => {
+            event.stopPropagation(); // Prevent click event from bubbling to the document
+            menu.classList.toggle('hidden');
+        });
+
+        // Close the menu when clicking outside of it
+        document.addEventListener('click', (event) => {
+            // Check if the menu is open and the click is outside the menu and toggle button
+            if (!menu.classList.contains('hidden') && !menu.contains(event.target) && !menuToggle.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+        });
+
+
+        const carousel = document.getElementById('carousel-items');
+        let currentIndex = 0;
+
+        // Update the carousel position
+        const updateCarousel = () => {
+            const width = carousel.children[0].offsetWidth;
+            carousel.style.transform = `translateX(-${currentIndex * width}px)`;
+        };
+
+        // Swipe functionality for touch devices
+        let startX = 0;
+
+        carousel.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        carousel.addEventListener('touchend', (e) => {
+            const endX = e.changedTouches[0].clientX;
+            if (startX > endX + 50) {
+                // Swipe left
+                currentIndex = (currentIndex + 1) % carousel.children.length;
+                updateCarousel();
+            } else if (startX < endX - 50) {
+                // Swipe right
+                currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+                updateCarousel();
+            }
+        });
+
+        // Auto-scroll functionality
+        const autoScroll = () => {
+            currentIndex = (currentIndex + 1) % carousel.children.length;
+            updateCarousel();
+        };
+
+        // Start auto-scroll with a 5-second interval
+        const autoScrollInterval = setInterval(autoScroll, 5000);
+
+        // Stop auto-scroll on touch interaction
+        carousel.addEventListener('touchstart', () => {
+            clearInterval(autoScrollInterval);
+        });
+    </script>
+</body>
+
+</html>
